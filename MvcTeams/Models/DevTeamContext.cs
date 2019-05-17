@@ -12,7 +12,7 @@ namespace MvcTeams.Models
 public partial class DevTeamContext : DbContext
 {
     public DevTeamContext()
-        : base("name=DevTeamContext")
+        : base("name=DefaultConnection")
        // : base ("name=masterEntities")
     {
     }
